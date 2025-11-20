@@ -1,16 +1,66 @@
-# React + Vite
+# React Starter ⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Static Badge](https://img.shields.io/badge/license-MIT-brightgreen?label=LICENSE)
 
-Currently, two official plugins are available:
+A lightweight React starter template built with Vite and Tailwind CSS. Fast development environment with HMR (Hot Module Replacement) and modern tooling out of the box.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Requirements
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (LTS recommended)
+- npm, yarn, pnpm, or bun
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+The development server will start at `http://localhost:5173`
+
+---
+
+> [!NOTE]
+> Prefer using another package manager? Use one of the following:
+>
+> ```bash
+> yarn install
+> # or
+> pnpm install
+> # or
+> bun install
+> ```
+
+---
+
+## Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check code quality
+
+---
+
+## Features
+
+- ⚡ **Vite** - Next generation frontend tooling
+- ⚛️ **React 19** - Latest React version
+- 🎨 **Tailwind CSS** - Utility-first CSS framework
+- 📝 **ESLint** - Code quality and consistency
+- 🔥 **HMR** - Fast refresh during development
+
+---
+
+## License
+
+This project is licensed under the [MIT](LICENSE) license.
