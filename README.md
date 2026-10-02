@@ -6,6 +6,33 @@ A lightweight React starter template built with Vite and Tailwind CSS. Fast deve
 
 ---
 
+## Features
+
+- ⚡ **Vite** - Next generation frontend tooling
+- ⚛️ **React 19** - Latest React version
+- 🎨 **Tailwind CSS** - Utility-first CSS framework
+- 📝 **ESLint** - Code quality and consistency
+- 🔥 **HMR** - Fast refresh during development
+
+---
+
+## Project Structure
+
+```text
+├── docs/
+├── public/
+├── src/
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── AGENTS.md
+├── index.html
+├── package.json
+└── vite.config.ts
+```
+
+---
+
 ## Getting Started
 
 ### Requirements
@@ -48,33 +75,6 @@ The development server will start at `http://localhost:5173`
 - `npm run build` - Build for production
 - `npm run preview` - Preview the production build locally
 - `npm run lint` - Run ESLint to check code quality
-
----
-
-## Project Structure
-
-```text
-├── docs/
-├── public/
-├── src/
-│   ├── App.tsx
-│   ├── index.css
-│   └── main.tsx
-├── AGENTS.md
-├── index.html
-├── package.json
-└── vite.config.ts
-```
-
----
-
-## Features
-
-- ⚡ **Vite** - Next generation frontend tooling
-- ⚛️ **React 19** - Latest React version
-- 🎨 **Tailwind CSS** - Utility-first CSS framework
-- 📝 **ESLint** - Code quality and consistency
-- 🔥 **HMR** - Fast refresh during development
 
 ---
 
