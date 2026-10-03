@@ -1,6 +1,7 @@
 # React Starter ⚡
 
 ![Static Badge](https://img.shields.io/badge/license-MIT-brightgreen?label=LICENSE)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/adydetra/react-starter)
 
 A lightweight React starter template built with Vite and Tailwind CSS. Fast development environment with HMR (Hot Module Replacement) and modern tooling out of the box.
 
